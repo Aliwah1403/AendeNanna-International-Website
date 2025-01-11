@@ -1,4 +1,5 @@
 import { Book, Menu, Sunset, Trees, Zap } from "lucide-react";
+import testLogo from "@/assets/logos/NavLogo.svg";
 
 import { cn } from "@/lib/utils";
 
@@ -79,12 +80,7 @@ const Header = () => {
       <div className="container mx-auto px-3 sm:px-5 lg:px-5">
         <nav className="hidden justify-between lg:flex">
           <div className="flex items-center gap-2">
-            <img
-              src="https://shadcnblocks.com/images/block/block-1.svg"
-              className="w-8"
-              alt="logo"
-            />
-            <span className="text-xl font-bold">Shadcn Blocks</span>
+            <img src={testLogo} alt="logo" />
           </div>
 
           <div className="flex items-center gap-6">
