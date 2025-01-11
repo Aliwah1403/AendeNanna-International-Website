@@ -28,7 +28,7 @@ const WhyChooseUs = () => {
   ];
 
   return (
-    <section className="py-16 px-4 md:px-6 lg:px-8">
+    <section className="py-16 px-4 md:px-6 lg:px-8 bg-gray-100">
       <div className="container mx-auto">
         <div className="grid md:grid-cols-2 gap-12 items-start">
           {/* Left Column */}
@@ -56,7 +56,9 @@ const WhyChooseUs = () => {
                 <div className="flex-shrink-0">{benefit.icon}</div>
                 <div className="space-y-2">
                   <h3 className="text-xl font-medium">{benefit.title}</h3>
-                  <p className="text-gray-400 font-light">{benefit.description}</p>
+                  <p className="text-gray-400 font-light">
+                    {benefit.description}
+                  </p>
                 </div>
               </div>
             ))}
