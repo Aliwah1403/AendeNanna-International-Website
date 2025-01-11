@@ -75,8 +75,8 @@ const subMenuItemsTwo = [
 
 const Header = () => {
   return (
-    <header className="py-4  px-4">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+    <header className="py-4 ">
+      <div className="container mx-auto px-3 sm:px-5 lg:px-5">
         <nav className="hidden justify-between lg:flex">
           <div className="flex items-center gap-2">
             <img
