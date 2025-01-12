@@ -136,7 +136,9 @@ const Header = () => {
             </div>
 
             <div className="flex gap-2">
-              <Button>Get in touch</Button>
+              <Button className="bg-red-500 hover:bg-red-600">
+                Get in touch
+              </Button>
             </div>
           </div>
         </nav>
