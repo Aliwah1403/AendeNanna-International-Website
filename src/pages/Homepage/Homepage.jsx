@@ -3,6 +3,7 @@ import Hero from "./Hero";
 import WhyChooseUs from "./Benefits";
 import Services from "./Services";
 import Stats from "./Stats";
+import Testimonials from "./Testimonials/user-testimonials";
 
 const Homepage = () => {
   return (
@@ -18,6 +19,9 @@ const Homepage = () => {
 
       {/* Company stats section */}
       <Stats />
+
+      {/* Testimonials */}
+      <Testimonials />
     </>
   );
 };
